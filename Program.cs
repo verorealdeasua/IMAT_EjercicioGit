@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.WriteLine(Add(2,5));
         }
 
@@ -12,3 +13,16 @@
             return x + y;
         }
 }
+=======
+            int num1 = 2;
+            int num2 = 3;
+            Console.WriteLine($"La suma de {num1} y {num2} es {Add(int num1, int num2)");
+
+        }
+        public int Add(int x, int y);
+        {
+            return x+y
+        }
+    }
+}
+>>>>>>> d3be452af8ea87ee3ae0c8ac88f485c9dcd394c0
